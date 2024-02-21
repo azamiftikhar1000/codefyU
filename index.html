@@ -1,614 +1,810 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>codefyU</title>
-
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap"
-    rel="stylesheet">
-</head>
-
-<body id="top">
-
-  <!-- 
-    - #HEADER
-  -->
-
-  <header class="header" data-header>
-    <div class="container">
-
-      <div class="overlay" data-overlay></div>
-
-      <a href="/" class="logo">
-        <img src="./assets/images/logo.svg" alt="codefyU logo">
-      </a>
-
-      <button class="menu-open-btn" data-menu-open-btn>
-        <ion-icon name="menu-outline"></ion-icon>
-      </button>
-
-      <nav class="navbar" data-navbar>
-
-        <button class="menu-close-btn" data-menu-close-btn>
-          <ion-icon name="close-outline"></ion-icon>
-        </button>
-
-        <a href="#" class="logo">
-          <img src="./assets/images/logo.svg" alt="codefyU logo">
-        </a>
-
-        <ul class="navbar-list">
-
-          <li>
-            <a href="/" class="navbar-link">Home</a>
-          </li>
-<!-- 
-          <li>
-            <a href="#" class="navbar-link">About</a>
-          </li> -->
-          <!-- <li>
-            <a href="/courses.html" class="navbar-link">Courses</a>
-          </li> -->
-
-
-          <li>
-            <a href="/contact.html" class="navbar-link">Contact</a>
-          </li>
-
-        </ul>
-
-        <button class="btn btn-secondary" onClick="window.location.href='/get_started.html';">Get Started</button>
-
-      </nav>
-
-    </div>
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="hero">
-        <div class="container">
-
-          <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" alt="A young lady sits, holding a pen and a notebook.">
-          </figure>
-
-          <div class="hero-content">
-            
-            <h1 class="h1 hero-title">Elevate Your Potential with Elite Training</h1>
-
-            <p class="section-text">
-              Join the top 1% in skill education, where access meets excellence, empowering your success.
-            </p>
-
-            <button class="btn btn-primary" onClick="window.location.href='/get_started.html';">Discover More</button>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-      <!-- 
-        - #How it works
-      -->
-
-      <section class="departments">
-        <div class="container">
-
-          <img src="./assets/images/departmets-vector.svg" alt="Vector line art" class="vector-line">
-
-          <h2 class="h2 departments-title">How it works</h2>
-          <center>
-          <p class="section-text">
-            Navigate your journey to success: Start by selecting your program, advance through hands-on training and real-time projects, earn your certification, and secure your future with our placement assistance.
-          </p>
-        </center>
-
-          <img src="./assets/images/image.png" alt="Vector line art" class="img-fluid" >
-      </section>
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="about">
-        <div class="container">
-
-          <figure class="about-banner">
-
-            <img src="./assets/images/about-banner.png" alt="codefyU students" class="about-img">
-
-            <img src="./assets/images/about-vector.svg" alt="Vector line art" class="vector-line">
-
-            <button class="play-btn">
-              <ion-icon name="play"></ion-icon>
-            </button>
-
-          </figure>
-
-          <div class="about-content">
-
-            <h2 class="h2 about-title">We Help to Create Possibility & Success in Your Career!</h2>
-
-            <p class="section-text">
-              Continually administrate process-centric human capital rather than bleeding-edge methodologies.
-              Distinctively supply
-              accurate methods of empowerment before.
-            </p>
-
-            <button class="btn btn-primary">Get Started Today</button>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #DEPARTMENTS
-      -->
-
-      <!-- <section class="departments">
-        <div class="container">
-
-          <img src="./assets/images/departmets-vector.svg" alt="Vector line art" class="vector-line">
-          <h2 class="h2 departments-title">Explore The Programs</h2>
-
-          <ul class="departments-list">
-
-            <li>
-              <div class="departments-card">
-
-                <a href="#" class="card-banner">
-                  <figure>
-                    <img src="./assets/images/depertment-1.png" alt="Artificial Intelligence">
-                  </figure>
-                </a>
-
-                <a href="#">
-                  <h3 class="h3 card-title">Artificial Intelligence</h3>
-                </a>
-
-                <p class="card-text">
-                  Assertively parallel task synergistic deliverables after high-quality.
-                </p>
-
-                <a href="#" class="card-link">
-                  <span>Learn More</span>
-
-                  <ion-icon name="arrow-forward"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="departments-card">
-
-                <a href="#" class="card-banner">
-                  <figure>
-                    <img src="./assets/images/depertment-2.png" alt="Civil Engineering">
-                  </figure>
-                </a>
-
-                <a href="#">
-                  <h3 class="h3 card-title">Civil Engineering</h3>
-                </a>
-
-                <p class="card-text">
-                  Assertively parallel task synergistic deliverables after high-quality.
-                </p>
-
-                <a href="#" class="card-link">
-                  <span>Learn More</span>
-
-                  <ion-icon name="arrow-forward"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="departments-card">
-
-                <a href="#" class="card-banner">
-                  <figure>
-                    <img src="./assets/images/depertment-3.png" alt="Business Studies">
-                  </figure>
-                </a>
-
-                <a href="#">
-                  <h3 class="h3 card-title">Business Studies</h3>
-                </a>
-
-                <p class="card-text">
-                  Assertively parallel task synergistic deliverables after high-quality.
-                </p>
-
-                <a href="#" class="card-link">
-                  <span>Learn More</span>
-
-                  <ion-icon name="arrow-forward"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <button class="btn btn-primary">View All Programs</button>
-
-        </div>
-      </section>
-
- -->
-
-
-
-      <!-- 
-        - #INSTRUCTOR
-      -->
-
-      <section class="instructor">
-        <div class="container">
-
-          <img src="./assets/images/instructor-vactor-1.svg" alt="Vector line art" class="vector-line">
-
-          <div class="title-wrapper">
-            <h2 class="h2 about-title">Learn from the Vanguard of Professional Excellence</h2>
-
-          </div>
-
-          <ul class="instructor-list">
-
-            <li>
-              <div class="instructor-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/azam-modified.png" alt="Azam  Iftikhar">
-                </figure>
-
-                <a href="#">
-                  <h3 class="card-title">Azam Iftikhar</h3>
-                </a>
-
-                <p class="card-subtitle">Lead Data Scientist in Private Id</p>
-
-                <ul class="card-social-list">
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+            <meta content="Pay After Placement, Full Stack Development Training, Tech Jobs, Software Development Jobs, Tech Jobs, Software Engineer jobs" name="keywords">
         
-
-                  <li>
-                    <a href="https://www.linkedin.com/in/azamiftikhar/" class="card-social-link">
-                      <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                  </li>
-
-                </ul>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="instructor-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/adnaan-modified.png" alt="Sellina">
-                </figure>
-
-                <a href="#">
-                  <h3 class="card-title">Adnaan Nazir</h3>
-                </a>
-
-                <p class="card-subtitle"> Senior AI and ML Engineer at Microsoft</p>
-
-                <ul class="card-social-list">
-
-
-                  <li>
-                    <a href="https://www.linkedin.com/in/adnaannazir/" class="card-social-link">
-                      <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                  </li>
-
-                </ul>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="instructor-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/Aaqib_2-removebg-preview-modified (1).png" alt="John Smith">
-                </figure>
-
-                <a href="#">
-                  <h3 class="card-title">Aaqib Zahoor</h3>
-                </a>
-
-                <p class="card-subtitle">Co-founder who trained 10,000 students. </p>
-
-                <ul class="card-social-list">
-
-                  <li>
-                    <a href="https://www.linkedin.com/in/aaqib-wani-83254469/" class="card-social-link">
-                      <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                  </li>
-
-                </ul>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <img src="./assets/images/instructor-vactor-2.svg" alt="Vector line art" class="vector-line">
-
-        </div>
-      </section>
-
-
-
-
-
-
-
-
-
-      <!-- 
-        - #CTA
-      -->
-
-      <section class="cta">
-        <div class="container">
-
-          <div class="title-wrapper">
-
-            <h2 class="h2 cta-title">
-              <span>Get Started</span>
-
-              <img src="./assets/images/cta-vector.svg" alt="Vector arrow art" class="vector-line">
-            </h2>
-
-            <button class="btn btn-primary">Register Now</button>
-
-          </div>
-
-          <div class="cta-banner"></div>
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer">
-
-    <div class="footer-top">
-      <div class="container">
-
-        <div class="footer-brand">
-
-          <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" alt="codefyU logo">
-          </a>
-
-          <p class="footer-text">
-            Elevate Your Potential with Elite Training
-          </p>
-
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-google"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <div class="footer-link-box">
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-link-title">Courses</p>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">About</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Terms</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Privacy Policy</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Careers</a>
-            </li>
-
-          </ul>
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-link-title">Company</p>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">About</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Terms</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Privacy Policy</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Careers</a>
-            </li>
-
-          </ul>
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-link-title">Job Info</p>
-            </li>
-
-
-            <li>
-              <a href="#" class="footer-link">Services</a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">Payment</a>
-            </li>
-
-          </ul>
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-link-title">Contact</p>
-            </li>
-
-            <li class="contact-item">
-              <a href="tel:5463876387" class="contact-link">+91-7006569557</a><br>
-              <a href="tel:5463876387" class="contact-link">+91-7006168185</a><br>
-              <a href="tel:5463876387" class="contact-link">+91-7780892868</a>
-            </li>
-
-            <li class="contact-item">
-              <span>Email : </span>
-
-              <a href="mailto:example@gmail.com" class="contact-link">info@codefyu.com</a>
-            </li>
-
-            <li class="contact-item">
-              <span>Address : </span>
-
-              <a href="#" class="contact-link">
-                <address>Rajbagh Srinagar, J&K India.  </address>
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-        <p class="copyright">
-          &copy; 2023 <a href="">codefyU</a>. All right reserved
-        </p>
-      </div>
-    </div>
-
-  </footer>
-
-
-
-
-
-  <!-- 
-    - #GO TO TOP
-  -->
-
-  <a href="#top" class="go-top" data-go-top>
-    <ion-icon name="arrow-up"></ion-icon>
-  </a>
-
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
-</html>
+            <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+            <link href="./assets/styles/style.css" rel="stylesheet">
+        </head>
+
+        <body>
+            <nav class="navbar-wrapper">
+                <div class="navbar-container">
+                    <div class="navbar-logo-outer">
+                        <img src="./assets/img/logo.svg"/>
+                    </div>
+
+                    <div class="navbar-items-outer">
+                            <div class="burger">
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            </div>
+                            <ul class="nav-links">
+                                <!-- <li><a href="#">Home</a></li>
+                                <li>
+                                    <a href="#">Services</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Web Design</a></li>
+                                        <li><a href="#">Hosting</a></li>
+                                    </ul>
+                                </li> -->
+                                <li style="cursor: pointer;"><a href="#" onclick="openModal()">Contact</a></li>
+                            </ul>
+                        <div class="navbar-button-outer flex">
+                            <!-- <button class="btn-mobile-login">
+                                <span class="text">Login</span>
+                            </button>
+                            <button class="btn-mobile-apply notShowBookBtn">
+                                <span class="text">Apply Now</span>
+                                <span class="icon">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"></path>
+                                    </svg>
+                                </span>
+                            </button> -->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="main-content">
+
+                <div class="hero-wrapper">
+                    <div class="hero-left-wrapper">
+                        <h1 class="hero-heading">
+                            Ignite Your <span class="heading-span-blue">Tech Career</span> Today: Learn, Grow, and Get Placed
+                        </h1>
+                        <p class="hero-subheading">
+                            <span class="subheading-gradient">Data Science | Artificial Intelligence | Cloud | DSA | Full Stack</span>
+                        </p>
+                        
+                        <!-- <div class="header-content-wrapper">
+                            <div class="header-content">
+                                <span class="image-wrapper">
+                                    <img class="image-placeholder" alt="" aria-hidden="true">
+                                    <img class="main-image" alt="logo" src="./assets/icons/green.svg">
+                                </span>
+                                <div class="header-content-div">
+                                    <p class="header-content-heading">1500+</p>
+                                    <p class="header-content-subheading">Students Placed</p>
+                                </div>
+                            </div>
+                            <div class="header-content">
+                                <span class="image-wrapper">
+                                    <img class="image-placeholder" alt="" aria-hidden="true">
+                                    <img class="main-image" alt="logo" src="./assets/icons/medal.svg">
+                                </span>
+                                <div class="header-content-div">
+                                    <p class="header-content-heading">1500+</p>
+                                    <p class="header-content-subheading">Students Placed</p>
+                                </div>
+                            </div>
+                            <div class="header-content">
+                                <span class="image-wrapper">
+                                    <img class="image-placeholder" alt="" aria-hidden="true">
+                                    <img class="main-image" alt="logo" src="./assets/icons/people.svg">
+                                </span>
+                                <div class="header-content-div">
+                                    <p class="header-content-heading">1500+</p>
+                                    <p class="header-content-subheading">Students Placed</p>
+                                </div>
+                            </div>
+                            <div class="header-content">
+                                <span class="image-wrapper">
+                                    <img class="image-placeholder" alt="" aria-hidden="true">
+                                    <img class="main-image" alt="logo" src="./assets/icons/money.svg">
+                                </span>
+                                <div class="header-content-div">
+                                    <p class="header-content-heading">1500+</p>
+                                    <p class="header-content-subheading">Students Placed</p>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+                        <!-- <div class="hero-left-last-content">
+                            <button class="linkedin-top20">
+                                <span class="image-wrapper">
+                                    <img class="image-placeholder" alt="" aria-hidden="true">
+                                    <img class="main-image" alt="linkedin" src="./assets/icons/linkedin.svg">
+                                </span>
+                                <p>LinkedIn Top 20 Startups</p>
+                            </button>
+                            <button class="header-special-content">
+                                <div class="text">Made with 💙 by an AccioJob Student</div>
+                            </button>
+                        </div> -->
+
+                    </div>           
+                    <div class="hero-right-wrapper">
+                        <div class="login-container">
+                            <h2>Start Learning For <span>Free</span> </h2>
+                            <h3>Lectures and Assignments Curatted from top tech professionals </h3>
+                            <form class="login-form flex-column" action='https://forms.zohopublic.in/codefyutech/form/WebsiteLeadForm/formperma/8m0GS8eU_c05NZeRKeaNpfR9QybpDkiOpjAwHT58Mao/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+                                <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+                                <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+                                <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+                                
+                                <div class="form-group">
+                                    <input type="text" maxlength="255" name="Name_First" fieldType=7 placeholder="Name" id="username" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="number" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="10" value="" fieldType=11 id="international_PhoneNumber_countrycode" pattern="[0-9]{10}" placeholder="Enter 10-digit mobile number" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="email" maxlength="255" name="Email" value="" fieldType=9 placeholder="Enter your email" required>
+                                </div>
+                        
+                                <div class="form-group">
+                                    <button type="submit" class="button">Get a callback</button>
+                                </div>
+                                <!-- <h4>By clicking 'Apply for free' you agree to our</h4>
+                                <h5>Terms and conditions</h5> -->
+                            </form>
+                        </div>
+                    </div>         
+                </div>
+
+                <!-- TESTIMONIAL SECTION -->
+                <div class="testimonials-wrapper">
+                    <p class="testimonials-gradient-header">student testimonials</p>
+
+                    <div class="testimonials-header-slideButton-wrapper">
+                        <h1 class="testimonials-header">Don’t just take our word for it, Go through CodefyU's <span class="blue-span">Student Reviews</span> </h1>
+                        <!-- <div class="slides-button-holder">
+                            <div class="slide-button-right">
+                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <div class="testimonials-slides-wrapper">
+                        <div class="slide-wrapper">
+                            <div class="slide-left"> 
+                                <p> Zaid Qadri </p>
+                                <div class="company-logo">
+                                    Technical Account Manager
+                                </div>
+                                <div class="social-handels-Detail"> 
+                                    <div class="linkedin"><a href="https://www.linkedin.com/in/zaid-mushtaq-09486a175/"><img src="./assets/icons/linkedin.svg"></a> </div>
+                                    <!-- <div class="youtube"> <img src="./assets/icons/youtube.svg"></div> -->
+                                </div>
+                                <div class="profile-img"><img src="./assets/img/Zaid.jpeg">
+                                </div> 
+                            </div>
+                            <div class="slide-right">
+                                <p class="testimonials-slide-header"> Tier 3 College Graduate to Technical Account Manager </p>
+                                
+                                <!-- <div class="display-text">
+                                    <div style="background:rgba(255, 113, 105, 1)" class="display-text-left">
+                                        <div><span>Non-Tech</span></div>
+                                    </div>
+                                    <div style="background:rgba(255, 113, 105, 1)" class="display-text-right">Fresher</div>
+                                </div> -->
+                                
+                                <p class="testimonials-slide-text">In 2019, I graduated from CSE from a tier 3 college here in Kashmir, seeking a high-paying job. Despite poor college placements, I pursued opportunities in technical firms. Self-study didn't enhance my coding skills, but CodefyU changed that. Friends had completed DSA and Full-stack courses there, so I joined. CodefyU's online classes were interactive, accessible, and taught by exceptional instructors. Ultimately, CodefyU refined my coding and technical abilities, securing me an Technical Account Manager position at Sky-high Security!</p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="slide-wrapper">
+                            <div class="slide-left"> 
+                                <p> Fahad </p>
+                                <div class="company-logo">
+                                    AWS CSE-I
+                                </div>
+                                <div class="social-handels-Detail"> 
+                                    <!-- <div class="linkedin"> <img src="./assets/icons/linkedin.svg"></div>
+                                    <div class="youtube"> <img src="./assets/icons/youtube.svg"></div> -->
+                                </div>
+                                <div class="profile-img"><img src="./assets/img/Fahad.jpeg">
+                                </div> 
+                            </div>
+                            <div class="slide-right">
+                                <p class="testimonials-slide-header"> 2019 pass out hired at AWS. </p>
+                                
+                                <!-- <div class="display-text">
+                                    <div style="background:rgba(255, 113, 105, 1)" class="display-text-left">
+                                        <div><span>Non-Tech</span></div>
+                                    </div>
+                                    <div style="background:rgba(255, 113, 105, 1)" class="display-text-right">Fresher</div>
+                                </div> -->
+                                
+                                <p class="testimonials-slide-text">I highly recommend CodefyU for anyone looking to improve their DSA skills & land their dream job. As a recent CSE graduate, my netwroking knowledge was limited, but with their comprehensive course, I was able to understand coding and secure a job in Networking domain. Their program and placement process were top-notch and helped me gain confidence through mock interviews. The mentors were knowledgeable and supportive, and the focus on projects was instrumental in preparing me for interviews. My experience was truly transformative, and I am grateful for the opportunity to take my career to the next level</p>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- PLACEMENTS MARQUEE -->
+                <div class="placement-highlight-banner-outer">
+                    <div class="left-text-content">
+                        <p class="title-text">
+                            <span class="blue-text">Placements </span> at CodefyU
+                        </p>
+                        <p class="description">50+ Alumni are building their dream careers by upskilling with CodefyU. Read about them here!</p>
+                        <!-- <button class="placement-btn">
+                            <span> See Placement Highlights </span>
+                            <span>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
+                            </span>
+                        </button> -->
+                    </div>
+                    <div class="right-text-content">
+                        <div class="logo-wrapper">
+                            <div class="rfm-marquee-container" style="--pause-on-hover: running; --pause-on-click: running; --width: 100%; --transform: none;">
+                                <div class="rfm-marquee" style="--play: running; --direction: normal; --duration: 40.6s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;">
+                                    <div class="companies-logo">
+                                        <div class="logo-holder">
+                                            <img class="logo-img" src="./assets/img/companyLogos/1_Wallmart.webp" alt="Walmart Logo">
+                                        </div>
+                                        <div class="logo-holder">
+                                            <img class="logo-img" src="./assets/img/companyLogos/2_Amazon.webp" alt="Amazon Logo">
+                                        </div>
+                                        <div class="logo-holder">
+                                            <img class="logo-img" src="./assets/img/companyLogos/3_Lowes.webp" alt="Lowes Logo">
+                                        </div>
+                                        <div class="logo-holder">
+                                            <img class="logo-img" src="./assets/img/companyLogos/4_Maersk.webp" alt="Maersk Logo">
+                                        </div>
+                                        <div class="logo-holder">
+                                            <img class="logo-img" src="./assets/img/companyLogos/5_MakeMyTrip.webp" alt="MakeMyTrip Logo">
+                                        </div>
+                                        <div class="logo-holder">
+                                            <img class="logo-img" src="./assets/img/companyLogos/6_Tata-Digital.webp" alt="Tata-Digital Logo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rfm-marquee-container" style="margin-top:30px; --pause-on-hover: running; --pause-on-click: running; --width: 100%; --transform: none;">
+                                <div class="rfm-marquee" style="--play: running; --direction: reverse; --duration: 40.6s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;">
+                                    <div class="companies-logo">
+                                        <div class="logo-holder">
+                                            <img class="logo-img" src="./assets/img/companyLogos/1_Wallmart.webp" alt="Walmart Logo">
+                                        </div>
+                                        <div class="logo-holder">
+                                            <img class="logo-img" src="./assets/img/companyLogos/2_Amazon.webp" alt="Amazon Logo">
+                                        </div>
+                                        <div class="logo-holder">
+                                            <img class="logo-img" src="./assets/img/companyLogos/3_Lowes.webp" alt="Lowes Logo">
+                                        </div>
+                                        <div class="logo-holder">
+                                            <img class="logo-img" src="./assets/img/companyLogos/4_Maersk.webp" alt="Maersk Logo">
+                                        </div>
+                                        <div class="logo-holder">
+                                            <img class="logo-img" src="./assets/img/companyLogos/5_MakeMyTrip.webp" alt="MakeMyTrip Logo">
+                                        </div>
+                                        <div class="logo-holder">
+                                            <img class="logo-img" src="./assets/img/companyLogos/6_Tata-Digital.webp" alt="Tata-Digital Logo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COURSE OFFERING -->
+                <div class="course-offering-wrapper">
+                    <div class="gradient-text">Get hands-on experience</div>
+                    <div class="heading-text heading-text-2">Take a look at our Amazing Curated Courses!</div>
+                    <div class="course-option">
+                        <div class="course-template-new">
+                            <div class="course-type" style="color:#fff;background-color:#945FF6">AI/ML</div>
+                            <div class="course-wrapper">
+                                <div class="course-title">
+                                    <img class="course-image" src="./assets/icons/code.svg" />
+                                    <img class="course-icon" src="./assets/icons/java.svg" />
+                                    <h2>DATA SCIENCE & AI TRACK</h2>
+                                    <div class="chip-flex">
+                                        <div class="chip">
+                                            <img src="./assets/icons/duration.svg" />
+                                            <p>DURATION : 6 Months</p>
+                                        </div>
+                                        <div class="chip">
+                                            <img src="./assets/icons/people-small.svg" />
+                                            <p>Seats left : 35</p>
+                                        </div>
+                                    </div>
+                                    <p class="left-text">Master Machine Learning & Artificial Intelligence Skills.</p>
+                                </div>
+                                <div class="course-curriculum">
+                                    <div class="course-accordian-flex">
+                                        <img src="./assets/icons/curriculum.svg" />
+                                        <h2>CURRICULUM</h2>
+                                    </div>
+                                    <div class="curriculum-arr">
+                                        <ul>
+                                            <li>Learn fundamentals: Programming.</li>
+                                            <li>Data acquisition and cleaning</li>
+                                            <li>Exploratory Data Analysis (EDA)</li>
+                                            <li>Machine Learning / Deep Learning</li>
+                                            <li>Natural Language Processing</li>
+                                            <li>Computer Vision</li>
+                                            <li>LLMs</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-placement">
+                                    <div class="course-accordian-flex">
+                                        <img src="./assets/icons/curriculum.svg" />
+                                        <h2>PLACEMENT</h2>
+                                    </div>
+                                    <div class="curriculum-arr">
+                                        <ul>
+                                            <li>100% Placement Assistance</li>
+                                            <li>Mock Interviews</li>
+                                            <li>Resume Building</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-action">
+                                    <button onclick="openModal()" class="template-bottom-curriculum">
+                                        <p class="text">Brochure</p><p class="icon"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M13 10H18L12 16L6 10H11V3H13V10ZM4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19Z"></path></svg></p>
+                                    </button>
+                                    <!-- <button class="template-bottom-learnMore">
+                                        <p class="text">Learn More</p><p class="icon"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="9 18 15 12 9 6"></polyline></svg></p>
+                                    </button> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-template-new">
+                            <div class="course-type" style="color:#fff;background-color:#945FF6">NETWORKING</div>
+                            <div class="course-wrapper">
+                                <div class="course-title">
+                                    <img class="course-image" src="./assets/icons/code.svg" />
+                                    <img class="course-icon" src="./assets/icons/java.svg" />
+                                    <h2>NETWORKING TRACK</h2>
+                                    <div class="chip-flex">
+                                        <div class="chip">
+                                            <img src="./assets/icons/duration.svg" />
+                                            <p>DURATION : 2.5 Months</p>
+                                        </div>
+                                        <div class="chip">
+                                            <img src="./assets/icons/people-small.svg" />
+                                            <p>Seats left : 35</p>
+                                        </div>
+                                    </div>
+                                    <p class="left-text">Unlock The World Of Connectivity And Innovation With Our Networking Mastery Track!</p>
+                                </div>
+                                <div class="course-curriculum">
+                                    <div class="course-accordian-flex">
+                                        <img src="./assets/icons/curriculum.svg" />
+                                        <h2>CURRICULUM</h2>
+                                    </div>
+                                    <div class="curriculum-arr">
+                                        <ul>
+                                            <li>Networking Fundamentals</li>
+                                            <li>Network Protocols and Security</li>
+                                            <li>Network Administration</li>
+                                            <li>Troubleshooting and Performance Optimization</li>
+                                            <li>Wireless and Cloud Networking</li>
+                                            <li>Emerging Technologies</li>
+                                            <li>Capstone Project</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-placement">
+                                    <div class="course-accordian-flex">
+                                        <img src="./assets/icons/curriculum.svg" />
+                                        <h2>PLACEMENT</h2>
+                                    </div>
+                                    <div class="curriculum-arr">
+                                        <ul>
+                                            <li>100% Placement Assistance</li>
+                                            <li>Mock Interviews</li>
+                                            <li>Resume Building</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-action">
+                                    <button onclick="openModal()" class="template-bottom-curriculum">
+                                        <p class="text">Brochure</p><p class="icon"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M13 10H18L12 16L6 10H11V3H13V10ZM4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19Z"></path></svg></p>
+                                    </button>
+                                    <!-- <button class="template-bottom-learnMore">
+                                        <p class="text">Learn More</p><p class="icon"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="9 18 15 12 9 6"></polyline></svg></p>
+                                    </button> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-template-new">
+                            <div class="course-type" style="color:#fff;background-color:#945FF6">Software</div>
+                            <div class="course-wrapper">
+                                <div class="course-title">
+                                    <img class="course-image" src="./assets/icons/code.svg" />
+                                    <img class="course-icon" src="./assets/icons/java.svg" />
+                                    <h2>FULL STACK DEVELOPMENT TRACK</h2>
+                                    <div class="chip-flex">
+                                        <div class="chip">
+                                            <img src="./assets/icons/duration.svg" />
+                                            <p>DURATION : 6 Months</p>
+                                        </div>
+                                        <div class="chip">
+                                            <img src="./assets/icons/people-small.svg" />
+                                            <p>Seats left : 35</p>
+                                        </div>
+                                    </div>
+                                    <p class="left-text">Unlock Boundless Possibilities In The Digital Realm With Our Full Stack Development Course</p>
+                                </div>
+                                <div class="course-curriculum">
+                                    <div class="course-accordian-flex">
+                                        <img src="./assets/icons/curriculum.svg" />
+                                        <h2>CURRICULUM</h2>
+                                    </div>
+                                    <div class="curriculum-arr">
+                                        <ul>
+                                            <li>Frontend Development</li>
+                                            <li>Backend Development</li>
+                                            <li>Database Management</li>
+                                            <li>Emerging Technologies (MEAM/MERN)</li>
+                                            <li>Deployment and DevOps</li>
+                                            <li>Caching and logging</li>
+                                            <li>Capstone Project</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-placement">
+                                    <div class="course-accordian-flex">
+                                        <img src="./assets/icons/curriculum.svg" />
+                                        <h2>PLACEMENT</h2>
+                                    </div>
+                                    <div class="curriculum-arr">
+                                        <ul>
+                                            <li>100% Placement Assistance</li>
+                                            <li>Mock Interviews</li>
+                                            <li>Resume Building</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-action">
+                                    <button onclick="openModal()" class="template-bottom-curriculum">
+                                        <p class="text">Brochure</p><p class="icon"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M13 10H18L12 16L6 10H11V3H13V10ZM4 19H20V12H22V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V12H4V19Z"></path></svg></p>
+                                    </button>
+                                    <!-- <button class="template-bottom-learnMore">
+                                        <p class="text">Learn More</p><p class="icon"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="9 18 15 12 9 6"></polyline></svg></p>
+                                    </button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MENTOR SECTION -->
+                <div class="mentorpage-wrapper">
+                    <p class="mentorpage-gradient-header">mentors &amp; instructors at CodefyU</p>
+                    <div class="mentorpage-header-slideButton-wrapper">
+                        <div class="mentorpage-header-wrapper"><h1 class="mentorpage-header">India’s<span class="blue-span"> Top Instructors </span>to help you reach your full potential</h1></div>
+                    </div>
+
+                    <div class="mentorpage-slides-wrapper">
+                        <div class="slide-wrapper">
+                            <div class="profile-img">
+                                <span>
+                                    <img src="./assets/img/adnaan.jpeg" />
+                                </span>
+                            </div>
+
+                            <div class="header-color-div"></div>
+
+                            <div class="content-wrapper">
+                                <div class="social-handel">
+                                    <div>
+                                        <a href="https://www.linkedin.com/in/adnaannazir/"><img src="./assets/icons/linkedin.svg" /></a>
+                                    </div>
+                                </div>
+                                <div class="mentor-details">
+                                    <div class="name">Adnaan Nazir</div>
+                                    <div class="profession">SDE 2 at Microsoft</div>
+                                    <div class="details">An IIT Mandi graduate, has mentored hundereds of students on various Data Structures and Algorithm (DSA) topics, with a specific focus on Machine Learning and AI projects.</div>
+                                    <div class="company">
+                                        <div class="position">IIT Mandi</div>
+                                        <!-- <div class="company-logo">
+                                            <img src="./assets/icons/MakeMytrip.webp" />
+                                        </div> -->
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide-wrapper">
+                            <div class="profile-img">
+                                <span>
+                                    <img src="./assets/img/azam.jpeg" />
+                                </span>
+                            </div>
+
+                            <div class="header-color-div"></div>
+
+                            <div class="content-wrapper">
+                                <div class="social-handel">
+                                    <div>
+                                        <a href="https://www.linkedin.com/in/azamiftikhar/"><img src="./assets/icons/linkedin.svg" /></a>
+                                    </div>
+                                </div>
+                                <div class="mentor-details">
+                                    <div class="name">Azam Iftikhar</div>
+                                    <div class="profession">Lead AI Engineer</div>
+                                    <div class="details">An NIT Srinagar graduate, has extensively worked at top tech companies around the world and cotributed to AI/ML specific projects.</div>
+                                    <div class="company">
+                                        <div class="position">NIT Srinagar</div>
+                                        <!-- <div class="company-logo">
+                                            <img src="./assets/icons/MakeMytrip.webp" />
+                                        </div> -->
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="slide-wrapper">
+                            <div class="profile-img">
+                                <span>
+                                    <img src="./assets/icons/Pradyot.webp" />
+                                </span>
+                            </div>
+
+                            <div class="header-color-div"></div>
+
+                            <div class="content-wrapper">
+                                <div class="social-handel">
+                                    <div>
+                                        <img src="./assets/icons/linkedin.svg" />
+                                    </div>
+                                </div>
+                                <div class="mentor-details">
+                                    <div class="name">Mohit Singhal</div>
+                                    <div class="profession">Software Development Engineer</div>
+                                    <div class="details">An IIT Indore graduate, has mentored thousands of students on various Data Structures and Algorithm (DSA) topics, with a specific focus on Spring boot and Capstone projects.</div>
+                                    <div class="company">
+                                        <div class="position">IIT Indore</div>
+                                        <div class="company-logo">
+                                            <img src="./assets/icons/MakeMytrip.webp" />
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+
+                <!-- STATISTICS WRAPPER -->
+                <div class="statistics-wrapper">
+                    <div class="statistics-left">
+                        <div class="gradient-text">Placement worries ?</div>
+                        <div class="heading">
+                            Our Dedicated Placement Team is committed to get you the <span class="span-blue"> Best Job</span>
+                        </div>
+                        <div class="topics">
+                            <div class="topic-container">
+                                <div class="icon">
+                                    <img alt="handBag" src="./assets/icons/handBag.svg"  class="img" >
+                                </div>
+                                <div class="text">Exclusive access to our partner companies</div>
+                            </div>
+                            <div class="topic-container">
+                                <div class="icon">
+                                    <img alt="handBag" src="./assets/icons/paper.svg"  class="img" >
+                                </div>
+                                <div class="text">1v1 experts sessions</div>
+                            </div><div class="topic-container">
+                                <div class="icon">
+                                    <img alt="handBag" src="./assets/icons/twoPerson.svg"  class="img" >
+                                </div>
+                                <div class="text">Resume, Linkedin, Portfolio building</div>
+                            </div><div class="topic-container">
+                                <div class="icon">
+                                    <img alt="handBag" src="./assets/icons/manMind.svg"  class="img" >
+                                </div>
+                                <div class="text">Soft Skills, HR Interview & Aptitude Training</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="statistics-right">
+                        <div class="slides-wrapper">
+                            <div class="rfm-marquee-container" style="--pause-on-hover: running; --pause-on-click: running; --width: 100%; --transform: none;">
+                                <div class="rfm-marquee" style="--play: running; --direction: normal; --duration: 20.6s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;">
+                                        <div class="rfm-child" style="--transform: none;">
+                                            <div class="slide-body">
+                                                <div class="clip-path-div" style="background: rgb(255, 225, 223);"></div>
+                                                
+                                                <div class="icon-1">
+                                                        <img alt="Company Logo" src="./assets/icons/badge.svg" decoding="async" data-nimg="intrinsic">
+                                                </div>
+                                                
+                                                <div class="heading" style="color: rgb(255, 113, 105);">21 LPA</div>
+                                                <div class="text">Highest Salary</div>
+                                            </div>
+                                        </div>     
+                                        <div class="rfm-child" style="--transform: none;">
+                                            <div class="slide-body">
+                                                <div class="clip-path-div" style="background: rgb(255, 248, 225);"></div>
+                                                
+                                                <div class="icon-1">
+                                                    <img alt="Company Logo" src="./assets/icons/people.8855b528.svg" decoding="async" data-nimg="intrinsic" >
+                                                </div>
+                                                
+                                                <div class="heading" style="color: rgb(248, 131, 65);">30+</div>
+                                                <div class="text">Partner Companies</div>
+                                            </div>
+                                        </div>    
+                                        <div class="rfm-child" style="--transform: none;">
+                                            <div class="slide-body">
+                                                <div class="clip-path-div" style="background: rgb(223, 255, 228);"></div>
+                                                
+                                                <div class="icon-1">
+                                                    <img alt="Company Logo" src="./assets/icons/shield.696ec577.svg" decoding="async" data-nimg="intrinsic" >
+                                                </div>
+                                                
+                                                <div class="heading" style="color: rgb(78, 210, 85);">50+</div>
+                                                <div class="text">Students Placed</div>
+                                            </div>
+                                        </div>    
+                                        <div class="rfm-child" style="--transform: none;">
+                                            <div class="slide-body">
+                                                <div class="clip-path-div" style="background: rgb(222, 246, 255);"></div>
+                                                
+                                                <div class="icon-1">
+                                                    <img alt="Company Logo" src="./assets/icons/dollar.f3bf0f4c.svg" decoding="async" data-nimg="intrinsic" >
+                                                </div>
+                                                
+                                                <div class="heading" style="color: rgb(81, 160, 254);">8.3 LPA</div>
+                                                <div class="text">Average Salary</div>
+                                            </div>
+                                        </div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STUDENT-WALL WRAPPER -->
+                <div class="studentwall-wrapper">
+                    <div class="studentwall-text-gradient">Students 💙 CodefyU</div>
+                    <div class="studentwall-heading">CodefyU Wall Of Love</div>
+                    <div class="studentwall-text">Our Alumni Say it Best</div>
+                    <div class="wall-wrapper">
+                        <div class="studentwall-content-wrapper">
+                            <div class="card-wrapper">
+                                <div class="card-head">
+                                    <div class="card-header-left">
+                                        <div class="profile-img">
+                                            <img src="./assets/icons/Prashant.9a38dc8e.png" />
+                                        </div>
+                                        <div class="deatils">
+                                            <div class="name">Prashant Singh</div>
+                                            <div class="profile">Associate Technology L1 at Publicis Sapient</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-header-right">
+                                        <img src="./assets/icons/quora.svg"/>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    During 2020 I was only able to get interviews for positions that offered like 10k-20k per month salary. With help of CodefyU I was able to get placement in Publicis Sapient & MAQ Software
+                                </div>
+                            </div>
+                            <div class="card-wrapper">
+                                <div class="card-head">
+                                    <div class="card-header-left">
+                                        <div class="profile-img">
+                                            <img src="./assets/icons/Prashant.9a38dc8e.png" />
+                                        </div>
+                                        <div class="deatils">
+                                            <div class="name">Prashant Singh</div>
+                                            <div class="profile">Associate Technology L1 at Publicis Sapient</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-header-right">
+                                        <img src="./assets/icons/quora.svg"/>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    During 2020 I was only able to get interviews for positions that offered like 10k-20k per month salary. With help of CodefyU I was able to get placement in Publicis Sapient & MAQ Software
+                                </div>
+                            </div>
+                            <div class="card-wrapper">
+                                <div class="card-head">
+                                    <div class="card-header-left">
+                                        <div class="profile-img">
+                                            <img src="./assets/icons/Prashant.9a38dc8e.png" />
+                                        </div>
+                                        <div class="deatils">
+                                            <div class="name">Prashant Singh</div>
+                                            <div class="profile">Associate Technology L1 at Publicis Sapient</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-header-right">
+                                        <img src="./assets/icons/quora.svg"/>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    During 2020 I was only able to get interviews for positions that offered like 10k-20k per month salary. With help of CodefyU I was able to get placement in Publicis Sapient & MAQ Software
+                                </div>
+                            </div>
+                            <div class="card-wrapper">
+                                <div class="card-head">
+                                    <div class="card-header-left">
+                                        <div class="profile-img">
+                                            <img src="./assets/icons/Prashant.9a38dc8e.png" />
+                                        </div>
+                                        <div class="deatils">
+                                            <div class="name">Prashant Singh</div>
+                                            <div class="profile">Associate Technology L1 at Publicis Sapient</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-header-right">
+                                        <img src="./assets/icons/quora.svg"/>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    During 2020 I was only able to get interviews for positions that offered like 10k-20k per month salary. With help of CodefyU I was able to get placement in Publicis Sapient & MAQ Software
+                                </div>
+                            </div>
+                            <div class="card-wrapper">
+                                <div class="card-head">
+                                    <div class="card-header-left">
+                                        <div class="profile-img">
+                                            <img src="./assets/icons/Prashant.9a38dc8e.png" />
+                                        </div>
+                                        <div class="deatils">
+                                            <div class="name">Prashant Singh</div>
+                                            <div class="profile">Associate Technology L1 at Publicis Sapient</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-header-right">
+                                        <img src="./assets/icons/quora.svg"/>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    During 2020 I was only able to get interviews for positions that offered like 10k-20k per month salary. With help of CodefyU I was able to get placement in Publicis Sapient & MAQ Software
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    Contact: +91-7006569557, +91-7006168185, +91-7780892868 | Email: info@codefyu.com | Address: Rajbagh Srinagar, J&K India.
+                    <br/>
+                    <br/>
+                    © 2023 codefyU. All right reserved
+                </div>
+
+                <div id="popup">
+                    <!-- The Modal -->
+                    <div id="myModal" class="lead-modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <iframe aria-label='Website Lead Form' frameborder="0" style="height:600px;width:99%;border:none;" src='https://forms.zohopublic.in/codefyutech/form/WebsiteLeadForm/formperma/QAakjm7qYHXXSU-nZS7u7FOVW7ppfuM3eRF39QISMeM'></iframe>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+    
+        </body>
+
+        <script src="./assets/script.js"></script>
+
+        <script>
+            document.querySelector('.burger').addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.toggle('nav-active');
+                
+                // Burger Animation
+                document.querySelectorAll('.burger .line').forEach(line => {
+                    line.classList.toggle('toggle');
+                });
+            });
+        </script>
+    </html>
